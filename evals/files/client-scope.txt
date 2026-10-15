@@ -1,0 +1,9 @@
+Email — thread with client (Andrei, marketing lead)
+
+Andrei wrote:
+Hi team,
+Quick one — we'd like the landing page to also pull live pricing from our billing
+system and update automatically when plans change. Should be straightforward given
+you already have the pricing block built. Can we get this in for the Friday release?
+
+— no goal was stated by the user beyond "reply to this"

@@ -1,0 +1,17 @@
+[
+  {"query": "my roommate just texted that they're throwing out my stuff from the kitchen shelf if I don't clean it by saturday. here's the chat: (pasted below). I don't want to start a war but I also can't drop everything this weekend — help me reply", "should_trigger": true},
+  {"query": "boss sent me this passive-aggressive slack message about the deadline being missed even though he approved the change himself. draft me something back that doesn't sound defensive", "should_trigger": true},
+  {"query": "разбери ситуацию: коллега постоянно переписывает мои тексты без спроса и отправляет их от своего имени, начальник thinks it's fine. что отвечать?", "should_trigger": true},
+  {"query": "vendor is blaming us for the failed integration but their API docs were wrong the whole time. I need 2-3 variants of a reply, cold tone, no emotions", "should_trigger": true},
+  {"query": "break down what's going on in this argument with my co-founder before I respond — file attached, and tell me what not to do", "should_trigger": true},
+  {"query": "friend canceled on me for the third time. I'm annoyed but I don't want to blow up the friendship. what do I say, keep it light", "should_trigger": true},
+  {"query": "need to tell a client their request is out of scope and will cost extra, without it sounding like a money grab. blunt and short", "should_trigger": true},
+  {"query": "переписка с бывшим, он написал что забирает кота. хочу ответить жёстко но чтобы не было потом проблем юридических — give me options", "should_trigger": false},
+  {"query": "read the attached contract and summarize the termination clause for me", "should_trigger": false},
+  {"query": "write a formal complaint letter to the city about broken streetlights on our block, professional tone", "should_trigger": false},
+  {"query": "translate this business email into English preserving the tone exactly", "should_trigger": false},
+  {"query": "why does my code produce a segfault when parsing this JSON? here's the stack trace", "should_trigger": false},
+  {"query": "analyze the sentiment of these 500 customer reviews and bucket them into positive/negative/neutral", "should_trigger": false},
+  {"query": "my ex liked my instagram story after 2 months of silence. should I respond and if so what", "should_trigger": true},
+  {"query": "help me write a resignation letter that burns no bridges but makes it clear I'm leaving because of management", "should_trigger": false}
+]

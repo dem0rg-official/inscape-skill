@@ -1,0 +1,20 @@
+Slack — #design-review — 14:12
+
+Masha K.:
+hey, so the client saw the mockups and they're not happy with the hero section
+Masha K.:
+they said it "looks like every other saas landing page" and want options by tomorrow noon
+you: 14:15
+wait, we approved the hero together on monday. and tomorrow noon is not possible, the sprint ends today
+Masha K.:
+I know but I already told the client we'd have something. can you just push a bit?
+you:
+"push a bit" means redoing the whole top block overnight?
+Masha K.:
+I mean it's not that deep? it's just the hero
+Masha K.:
+also if you could keep it to yourself that the timeline slipped, that would be great
+you:
+so I do the work, and the client never hears that the deadline moved?
+Masha K.:
+let's not make it a whole thing. just some new options by tomorrow please

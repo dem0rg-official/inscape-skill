@@ -1,0 +1,43 @@
+{
+  "skill_name": "inscape",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Please read the file evals/files/coworker-chat.txt — that's a Slack thread with my coworker. I don't want to start a war with her but I'm not redoing the hero section overnight, and I'm definitely not hiding that the deadline slipped from the client. Write me reply options. Tone: calm.",
+      "expected_output": "A short breakdown (since the situation is tangled), then 1-3 calm reply options of 1-2 sentences each, staying within what actually happened in the thread.",
+      "files": ["evals/files/coworker-chat.txt"],
+      "expectations": [
+        "Output contains 1-3 reply options, each no longer than 2 sentences",
+        "A reply option (or the closing advice) leads toward the stated goal: do the work without war, but do not hide the slipped deadline from the client",
+        "No invented facts absent from the thread (no new names, dates, promises, or events)",
+        "Tone reads as calm — no profanity, no insults, no emotional outbursts",
+        "If a breakdown is included, it is 3-5 lines with no therapy-style lecturing"
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "break down the situation with my neighbor first, then give me reply options. file: evals/files/neighbor-noise.txt. He's already threatened to call the police and the admin. I want him to back off without me looking like I'm admitting to something I didn't do. tone: harsh is fine.",
+      "expected_output": "A 3-5 line breakdown of what is really going on (including his escalation motive), then 1-3 harsh-but-not-insulting reply options.",
+      "files": ["evals/files/neighbor-noise.txt"],
+      "expectations": [
+        "A breakdown appears before the reply options and is 3-5 lines long",
+        "Breakdown identifies the neighbor's hidden leverage: threats to admin/police as escalation beyond the actual noise issue",
+        "Reply options stay within the facts of the thread (three nights, gathering already over, no weeknight events promised)",
+        "Harsh tone does not cross into personal insults or humiliation of the neighbor",
+        "Reply options are 1-2 sentences each, 1-3 options total"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "client wants live pricing pulled from the billing system for Friday, evals/files/client-scope.txt. he thinks it's straightforward. reply to him — but I didn't tell you what I want out of this, so handle that however the situation calls for.",
+      "expected_output": "Recognizes the goal is unstated, asks the one clarifying question about what the user wants, and offers 1-2 neutral reply options; does not silently pick a side.",
+      "files": ["evals/files/client-scope.txt"],
+      "expectations": [
+        "Does not invent facts about the billing system or the team's capacity that are not in the file",
+        "Asks the user the single clarifying question about their goal instead of committing to a side",
+        "Offers 1-2 neutral reply options alongside the question",
+        "Any reply option is 1-2 sentences and shorter than or comparable to the client's request"
+      ]
+    }
+  ]
+}
